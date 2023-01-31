@@ -1,0 +1,77 @@
+    1  cd
+    2  cd
+    3  clear
+    4  ll
+    5  ls
+    6  df
+    7  df -h
+    8  clear
+    9  touch sample
+   10  mkdir abc
+   11  ls
+   12  rm -rf abc
+   13  ls
+   14  mkdir -p abc/z/y
+   15  ls -R
+   16  echo "hello world"> sample
+   17  cat sample
+   18  chmod 617 sample
+   19  cd abc
+   20  cd z
+   21  vi myscript.sh 
+   22  chmod 777 myscript.sh
+   23  ll
+   24  ln -s myscript.sh
+   25  clear
+   26  ll
+   27  ls
+   28  ln -s myscript.sh m_link
+   29  ls
+   30  cat m_link
+   31  exit
+   32  cd
+   33  ll
+   34  ls
+   35  history
+   36  clear
+   37  find /-name sample
+   38  vi alphabet
+   39  ls
+   40  cat alphabet
+   41  clear
+   42  grep a alpabet
+   43  grep a alphabet
+   44  grep -i A alphabet
+   45  vi demo.sh
+   46  cd
+   47  ll
+   48  id
+   49  uname
+   50  cat /etc/os-release 
+   51  clear
+   52  free
+   53  free -m
+   54  top
+   55  clear
+   56  ls
+   57  tar cvf new.tar abc
+   58  ls
+   59  tar xvf new.tar
+   60  ls
+   61  rm -rf new.tar
+   62  ls
+   63  history
+   64  cd
+   65  cmd
+   66  ls
+   67  useradd narendra
+   68  su narendra
+   69  su narendra
+   70  useradd ntr
+   71  su ntr
+   72  clear
+   73  useradd kk
+   74  su kk
+   75  history
+   76  cd
+   77  history >>mytask
